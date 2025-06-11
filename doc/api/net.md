@@ -187,7 +187,7 @@ added:
   - need to be integrated 
   - unknown
 -->
-* `value` {string\[]} array of blocklist rules
+* `value` {string\[]} array of blocklist rules or json string equivalent
 ### `BlockList.toJson()`
 > Stability: 1 - Experimental
  <!-- YAML
