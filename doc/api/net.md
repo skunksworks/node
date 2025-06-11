@@ -203,7 +203,7 @@ added:
   - unknown
 -->
 
-* Returns `{string\[]}` array of blocklist rules
+* Returns {string\[]} array of blocklist rules
 
 ## Class: `net.SocketAddress`
 
