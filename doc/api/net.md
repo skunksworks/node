@@ -187,7 +187,7 @@ added:
 
  <!-- YAML
 added:
-  - need to be integrated 
+  - need to be integrated
   - unknown
 -->
 
@@ -199,7 +199,7 @@ added:
 
  <!-- YAML
 added:
-  - need to be integrated 
+  - need to be integrated
   - unknown
 -->
 
