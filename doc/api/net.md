@@ -186,9 +186,7 @@ added:
 > Stability: 1 - Experimental
 
  <!-- YAML
-added:
-  - need to be integrated
-  - unknown
+added: REPLACEME
 -->
 
 * `value` {string\[]} array of blocklist rules or json string equivalent
