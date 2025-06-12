@@ -196,9 +196,7 @@ added: REPLACEME
 > Stability: 1 - Experimental
 
  <!-- YAML
-added:
-  - need to be integrated
-  - unknown
+added: REPLACEME
 -->
 
 * Returns {string\[]} array of blocklist rules
