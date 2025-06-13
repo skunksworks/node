@@ -189,7 +189,7 @@ added:
 added: REPLACEME
 -->
 
-* `value` {string\[]} array of blocklist rules or json string equivalent
+* `value` {string\[]} array of blocklist rules or JSON string equivalent
 
 ### `BlockList.toJson()`
 
