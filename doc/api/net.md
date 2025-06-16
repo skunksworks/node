@@ -188,6 +188,7 @@ added:
  <!-- YAML
 added: REPLACEME
 -->
+
 ```js
 const blockList = new net.BlockList();
 const data = [
@@ -199,6 +200,7 @@ const data = [
 blockList.fromJson(data);
 blockList.fromJson(JSON.stringify(data));
 ```
+
 * `value` {string\[]} array of blocklist rules or JSON string equivalent
 
 ### `BlockList.toJson()`
