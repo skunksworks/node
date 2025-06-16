@@ -191,13 +191,13 @@ added: REPLACEME
 ```js
 const blockList = new net.BlockList();
 const data = [
-     "Subnet: IPv4 192.168.1.0/24",
-     "Address: IPv4 10.0.0.5",
-     "Range: IPv4 192.168.2.1-192.168.2.10",
-     "Range: IPv4 10.0.0.1-10.0.0.10"
+  'Subnet: IPv4 192.168.1.0/24',
+  'Address: IPv4 10.0.0.5',
+  'Range: IPv4 192.168.2.1-192.168.2.10',
+  'Range: IPv4 10.0.0.1-10.0.0.10'
    ]
-blockList.fromJson(data)
-blockList.fromJson(JSON.stringify(data))
+blockList.fromJson(data);
+blockList.fromJson(JSON.stringify(data));
 ```
 * `value` {string\[]} array of blocklist rules or JSON string equivalent
 
