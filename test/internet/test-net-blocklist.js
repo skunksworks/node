@@ -10,4 +10,5 @@ const test2 = new BlockList();
 test.addAddress('127.0.0.1');
 test.addAddress('192.168.0.1');
 test2.fromJson(JSON.parse(test.toJson()));
+test2.fromJson(test.toJson());
 assert.strictEqual(test2.rules, test.rules);
