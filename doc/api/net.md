@@ -181,7 +181,7 @@ added:
 * `value` {any} Any JS value
 * Returns `true` if the `value` is a `net.BlockList`.
 
-### `BlockList.fromJson(value)`
+### `BlockList.fromJSON(value)`
 
 > Stability: 1 - Experimental
 
@@ -197,13 +197,13 @@ const data = [
   'Range: IPv4 192.168.2.1-192.168.2.10',
   'Range: IPv4 10.0.0.1-10.0.0.10',
 ];
-blockList.fromJson(data);
-blockList.fromJson(JSON.stringify(data));
+blockList.fromJSON(data);
+blockList.fromJSON(JSON.stringify(data));
 ```
 
 * `value` {string\[]} array of blocklist rules or JSON string equivalent
 
-### `BlockList.toJson()`
+### `BlockList.toJSON()`
 
 > Stability: 1 - Experimental
 
