@@ -26,4 +26,4 @@ test2.fromJSON(JSON.parse(test.toJSON()));
 test2.fromJSON(test.toJSON());
 test3.fromJSON(data);
 assert.strictEqual(test2.rules, test.rules);
-assert.strictEqual(test3.rules,data)
+assert.strictEqual(test3.rules,data);
