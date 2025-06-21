@@ -203,7 +203,7 @@ blockList.fromJSON(JSON.stringify(data));
 
 * `value` {string\[]} array of blocklist rules or JSON string equivalent
 
-### `BlockList.toJSON()`
+### `blockList.toJSON()`
 
 > Stability: 1 - Experimental
 
