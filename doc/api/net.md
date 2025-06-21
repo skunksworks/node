@@ -181,7 +181,7 @@ added:
 * `value` {any} Any JS value
 * Returns `true` if the `value` is a `net.BlockList`.
 
-### `BlockList.fromJSON(value)`
+### `blockList.fromJSON(value)`
 
 > Stability: 1 - Experimental
 
