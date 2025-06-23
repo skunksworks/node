@@ -1,6 +1,6 @@
 'use strict';
 
-const common=require('../common');
+const common = require('../common');
 const assert = require('assert');
 const { BlockList } = require('net');
 const data = [
@@ -18,22 +18,22 @@ const data = [
 const test = new BlockList();
 const test2 = new BlockList();
 const test3 = new BlockList();
-const test4 =new BlockList();
+const test4 = new BlockList();
 test.addAddress('127.0.0.1');
 test.addAddress('192.168.0.1');
 test2.fromJSON(test.toJSON());
 test2.fromJSON(JSON.stringify(test.toJSON()));
 test3.fromJSON(data);
-data.forEach((item)=>{
-  test4.fromJSON([item])
-})
+data.forEach((item) => {
+  test4.fromJSON([item]);
+});
 assert.strictEqual(test2.rules, test.rules);
 assert.strictEqual(test3.rules, data);
 try {
-  JSON.parse(test4.toJSON())
-} catch (error){
-  common.mustNotCall("erreur de parsing")
+  JSON.parse(test4.toJSON());
+} catch (error) {
+  common.mustNotCall('erreur de parsing' + error);
 }
-data.map((t)=>{
+data.map((t) => {
   return assert.strictEqual(test3.check(t), true);
-})
+});
