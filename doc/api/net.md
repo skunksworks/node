@@ -211,7 +211,7 @@ blockList.fromJSON(JSON.stringify(data));
 added: REPLACEME
 -->
 
-* Returns {string\[]} array of blocklist rules
+* Returns Blocklist.rules
 
 ## Class: `net.SocketAddress`
 
