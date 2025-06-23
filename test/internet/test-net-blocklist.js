@@ -1,8 +1,6 @@
 'use strict';
 
-const common = require('../common');
-const cache = common;
-console.log(cache);
+require('../common');
 const assert = require('assert');
 const { BlockList } = require('net');
 const data = [
