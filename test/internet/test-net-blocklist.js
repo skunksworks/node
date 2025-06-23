@@ -29,11 +29,11 @@ data.forEach((item)=>{
 })
 assert.strictEqual(test2.rules, test.rules);
 assert.strictEqual(test3.rules, data);
-try{
+try {
   JSON.parse(test4.toJSON())
-}catch(error){
+} catch (error){
   common.mustNotCall("erreur de parsing")
 }
 data.map((t)=>{
-  assert.strictEqual(test3.check(t),true);
+  return assert.strictEqual(test3.check(t), true);
 })
