@@ -18,10 +18,14 @@ const data = [
 const test = new BlockList();
 const test2 = new BlockList();
 const test3 = new BlockList();
+const test4 =new BlockList();
 test.addAddress('127.0.0.1');
 test.addAddress('192.168.0.1');
-test2.fromJSON(JSON.parse(test.toJSON()));
 test2.fromJSON(test.toJSON());
+test2.fromJSON(JSON.stringify(test.toJSON()));
 test3.fromJSON(data);
 assert.strictEqual(test2.rules, test.rules);
 assert.strictEqual(test3.rules, data);
+data.map((t)=>{
+  assert.strictEqual(test3.check(t),true);
+})

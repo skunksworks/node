@@ -201,7 +201,7 @@ blockList.fromJSON(data);
 blockList.fromJSON(JSON.stringify(data));
 ```
 
-* `value` {string\[]} array of blocklist rules or JSON string equivalent
+* `value` Blocklist.rules
 
 ### `blockList.toJSON()`
 
