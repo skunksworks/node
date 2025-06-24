@@ -27,8 +27,8 @@ test3.fromJSON(data);
 data.forEach((item) => {
   test4.fromJSON([item]);
 });
-assert.strictEqual(test2.rules, test.rules);
-assert.strictEqual(test3.rules, data);
+assert.deepStrictEqual(test2.rules, test.rules);
+assert.deepStrictEqual(test3.rules, data);
 try {
   JSON.parse(test4.toJSON());
 } catch (error) {
