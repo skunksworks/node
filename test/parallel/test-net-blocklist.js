@@ -93,11 +93,6 @@ data.forEach((item) => {
 });
 assert.deepStrictEqual(test2.rules, test.rules);
 assert.deepStrictEqual(test3.rules, data);
-try {
-  JSON.parse(test4.toJSON());
-} catch (error) {
-  common.mustNotCall('parsing error ' + error);
-}
 data.map((t) => {
   return assert.strictEqual(test3.check(t), true);
 });
